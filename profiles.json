@@ -1,0 +1,274 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "globals" : 
+    {
+        "alwaysShowTabs" : true,
+        "copyOnSelect" : false,
+        "defaultProfile" : "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+        "initialCols" : 120,
+        "initialRows" : 30,
+        "keybindings" : 
+        [
+            {
+                "command" : "closePane",
+                "keys" : 
+                [
+                    "ctrl+shift+w"
+                ]
+            },
+            {
+                "command" : "copy",
+                "keys" : 
+                [
+                    "ctrl+shift+c"
+                ]
+            },
+            {
+                "command" : "duplicateTab",
+                "keys" : 
+                [
+                    "ctrl+shift+d"
+                ]
+            },
+            {
+                "command" : "newTab",
+                "keys" : 
+                [
+                    "ctrl+shift+t"
+                ]
+            },
+            {
+                "command" : "newTabProfile0",
+                "keys" : 
+                [
+                    "ctrl+shift+1"
+                ]
+            },
+            {
+                "command" : "newTabProfile1",
+                "keys" : 
+                [
+                    "ctrl+shift+2"
+                ]
+            },
+            {
+                "command" : "newTabProfile2",
+                "keys" : 
+                [
+                    "ctrl+shift+3"
+                ]
+            },
+            {
+                "command" : "newTabProfile3",
+                "keys" : 
+                [
+                    "ctrl+shift+4"
+                ]
+            },
+            {
+                "command" : "newTabProfile4",
+                "keys" : 
+                [
+                    "ctrl+shift+5"
+                ]
+            },
+            {
+                "command" : "newTabProfile5",
+                "keys" : 
+                [
+                    "ctrl+shift+6"
+                ]
+            },
+            {
+                "command" : "newTabProfile6",
+                "keys" : 
+                [
+                    "ctrl+shift+7"
+                ]
+            },
+            {
+                "command" : "newTabProfile7",
+                "keys" : 
+                [
+                    "ctrl+shift+8"
+                ]
+            },
+            {
+                "command" : "newTabProfile8",
+                "keys" : 
+                [
+                    "ctrl+shift+9"
+                ]
+            },
+            {
+                "command" : "nextTab",
+                "keys" : 
+                [
+                    "ctrl+tab"
+                ]
+            },
+            {
+                "command" : "openNewTabDropdown",
+                "keys" : 
+                [
+                    "ctrl+shift+space"
+                ]
+            },
+            {
+                "command" : "openSettings",
+                "keys" : 
+                [
+                    "ctrl+,"
+                ]
+            },
+            {
+                "command" : "paste",
+                "keys" : 
+                [
+                    "ctrl+shift+v"
+                ]
+            },
+            {
+                "command" : "prevTab",
+                "keys" : 
+                [
+                    "ctrl+shift+tab"
+                ]
+            },
+            {
+                "command" : "scrollDown",
+                "keys" : 
+                [
+                    "ctrl+shift+down"
+                ]
+            },
+            {
+                "command" : "scrollDownPage",
+                "keys" : 
+                [
+                    "ctrl+shift+pgdn"
+                ]
+            },
+            {
+                "command" : "scrollUp",
+                "keys" : 
+                [
+                    "ctrl+shift+up"
+                ]
+            },
+            {
+                "command" : "scrollUpPage",
+                "keys" : 
+                [
+                    "ctrl+shift+pgup"
+                ]
+            },
+            {
+                "command" : "switchToTab0",
+                "keys" : 
+                [
+                    "ctrl+alt+1"
+                ]
+            },
+            {
+                "command" : "switchToTab1",
+                "keys" : 
+                [
+                    "ctrl+alt+2"
+                ]
+            },
+            {
+                "command" : "switchToTab2",
+                "keys" : 
+                [
+                    "ctrl+alt+3"
+                ]
+            },
+            {
+                "command" : "switchToTab3",
+                "keys" : 
+                [
+                    "ctrl+alt+4"
+                ]
+            },
+            {
+                "command" : "switchToTab4",
+                "keys" : 
+                [
+                    "ctrl+alt+5"
+                ]
+            },
+            {
+                "command" : "switchToTab5",
+                "keys" : 
+                [
+                    "ctrl+alt+6"
+                ]
+            },
+            {
+                "command" : "switchToTab6",
+                "keys" : 
+                [
+                    "ctrl+alt+7"
+                ]
+            },
+            {
+                "command" : "switchToTab7",
+                "keys" : 
+                [
+                    "ctrl+alt+8"
+                ]
+            },
+            {
+                "command" : "switchToTab8",
+                "keys" : 
+                [
+                    "ctrl+alt+9"
+                ]
+            }
+        ],
+        "requestedTheme" : "system",
+        "showTabsInTitlebar" : true,
+        "showTerminalTitleInTitlebar" : true,
+        "wordDelimiters" : " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
+    },
+    "profiles" : 
+    [
+        {
+            "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+            "colorScheme": "SpaceCamp",
+            "cursorColor" : "#d0d0d0",
+            "fontFace" : "FiraMono",
+            "cursorShape" : "beam",
+            "fontSize" : 12,
+            "hidden": false,
+            "name": "Ubuntu-18.04",
+            "source": "Windows.Terminal.Wsl",
+            "useAcrylic" : false
+        }
+    ],
+    "schemes" : 
+    [
+    	{
+			"name": "SpaceCamp",
+			"black": "#282828",
+			"red": "#d71a1a",
+			"green": "#57ba37",
+			"yellow": "#f0d50c",
+			"blue": "#91aadf",
+			"purple": "#cf73e6",
+			"cyan": "#b7cbf4",
+			"white": "#dedede",
+			"brightBlack": "#666666",
+			"brightRed": "#ff0000",
+			"brightGreen": "#d8fa3b",
+			"brightYellow": "#e7c547",
+			"brightBlue": "#b7cbf4",
+			"brightPurple": "#b77ee0",
+			"brightCyan": "#a9c1de",
+			"brightWhite": "#eeeeee",
+			"background": "#121212",
+			"foreground": "#d0d0d0"
+    	}
+    ]
+}

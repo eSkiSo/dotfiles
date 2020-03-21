@@ -69,7 +69,7 @@ CHR 33
 ORPHAN 31
 MISSING 01;37;41
 
-EXEC 01;36
+EXEC 01;33
 
 SETUID 01;04;37
 SETGID 01;04;37
@@ -169,13 +169,13 @@ STICKY 04;37;44
 .xlsx 32
 
 #+--- Executables ---+
-.app 01;36
-.bat 01;36
-.btm 01;36
-.cmd 01;36
-.com 01;36
-.exe 01;36
-.reg 01;36
+.app 01;33
+.bat 01;33
+.btm 01;33
+.cmd 01;33
+.com 01;33
+.exe 01;33
+.reg 01;33
 
 #+--- Ignores ---+
 *~ 02;37
