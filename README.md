@@ -14,6 +14,8 @@
 
 ## macOS
 
+![Screenshot](media/iterm2.png)
+
 **Make sure you have coreutils installed**
 
 `brew install coreutils`
