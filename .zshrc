@@ -104,3 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 ## set colors for LS_COLORS
 eval `dircolors ~/.dircolors`
+## On macOS
+#eval `gdircolors ~/.dircolors`
