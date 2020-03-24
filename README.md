@@ -11,3 +11,13 @@
 **Emulator**: Windows Terminal (Preview)
 
 *Notice that at this moment **Windows Terminal (Preview)** does not show **bold** correctly so **ls** image is missing that on the screenshot, but it is there*
+
+## macOS
+
+![Screenshot](media/iterm2.png)
+
+**Make sure you have coreutils installed**
+
+`brew install coreutils`
+
+Change last line on .zshrc
