@@ -1,13 +1,13 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "globals" : 
+    "globals" :
     {
         "alwaysShowTabs" : true,
         "copyOnSelect" : false,
         "defaultProfile" : "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
         "initialCols" : 120,
         "initialRows" : 30,
-        "keybindings" : 
+        "keybindings" :
         [
             {
                 "command" : "closePane",
@@ -267,7 +267,7 @@
 			"brightPurple": "#b77ee0",
 			"brightCyan": "#a9c1de",
 			"brightWhite": "#eeeeee",
-			"background": "#121212",
+			"background": "#073642",
 			"foreground": "#d0d0d0"
     	}
     ]

@@ -29,10 +29,11 @@ local user_host='%{$fg[yellow]%}%n%{$reset_color%}@%{$fg[yellow]%}%m %{$reset_co
 
 # default: blue, if return code other than 0: red
 local prompt_color="%(?,%{$fg[blue]%},%{$fg[red]%})"
-local prompt='%F{178}%n ${prompt_color}> %{$reset_color%}'
+local prompt='[%F{178}%n%{$fg[red]%}@%{$fg[magenta]%}%c%{$reset_color%}]${prompt_color} > %{$reset_color%}'
 
 # current directory display
 local directory_path='%{$fg[magenta]%}%c'
+local fullpath='%{$fg[magenta]%}%d%{$reset_color%}'
 
 # last command return code
 local return_code='%(?,,%{$fg[red]%} RC=%?%{$reset_color%})'
@@ -49,7 +50,7 @@ else
 fi
 
 # right prompt definition
-RPROMPT="${directory_path}"
+RPROMPT="${fullpath}"
 RPROMPT+="${git_info}"
 RPROMPT+="${return_code}"
 
@@ -64,3 +65,4 @@ _fix_cursor() {
   echo -ne "${cursor}"
 }
 precmd_functions+=(_fix_cursor)
+
