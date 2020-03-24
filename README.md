@@ -4,7 +4,7 @@
 
 **Shell**: [Zshell](https://www.zsh.org/) (with [Oh My ZSH](https://ohmyz.sh/))
 
-**Theme**: [SpaceCamp](https://github.com/jaredgorski/SpaceCamp)
+**Theme**: [Typewritten](https://github.com/reobin/typewritten)
 
 **Font**:  [FiraMono](https://github.com/powerline/fonts/tree/master/FiraMono)
 
@@ -15,6 +15,8 @@
 ## macOS
 
 ![Screenshot](media/iterm2.png)
+
+*screenshot pending update*
 
 **Make sure you have coreutils installed**
 
