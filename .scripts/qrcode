@@ -1,0 +1,4 @@
+#!/bin/bash
+input=$(printf '%s ' "$@")
+input=$(echo $input | sed s/" "/%20/g ) ## replace all spaces in the sentence with HTML-encoded space %20
+curl qrenco.de/$input ## get a response for the qrcode

@@ -1,0 +1,2 @@
+#!/bin/bash
+curl https://pt.wttr.in/41.2357,-8.6199,Maia
